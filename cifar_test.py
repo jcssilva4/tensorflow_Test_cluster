@@ -1,5 +1,7 @@
 import tensorflow as tf
 
+print(tf. __version__)
+
 # Check that GPU is available: cf. https://colab.research.google.com/notebooks/gpu.ipynb
 #assert(tf.test.gpu_device_name())
 
